@@ -1,1 +1,1 @@
-{"run_list":     [    "recipe[workstation::firewall]",     "recipe[workstation::services]"    ]}
+{"run_list":     [    "recipe[workstation::firewall]",     "recipe[workstation::services]",    "recipe[workstation::nginx]",    "recipe[workstation::varnish]"    ]}
